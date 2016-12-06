@@ -1,0 +1,36 @@
+/**index.wxss**/
+.userItem{
+  height:80rpx;
+  padding:5px 10px;
+  display: flex;
+  border-bottom:1px solid #ddd;
+}
+.pic image{
+  width:80rpx;
+  height: 80rpx;
+  margin-right: 10px;
+}
+.userItem .name{
+  font-size: 15px;
+  padding:5px 0;
+  font-weight: bold;
+  flex:2;
+}
+.userItem .time{
+  font-size: 13px;
+}
+
+.message{
+  color: gray;
+  margin-top:10px;
+}
+.messagetime{
+  color:gray;
+  font-size:13px;
+}
+
+.tips{
+  margin-top:50px;
+  color: gray;
+  text-align: center;
+}

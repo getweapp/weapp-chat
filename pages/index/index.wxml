@@ -1,0 +1,25 @@
+<scroll-view scroll-y="true">
+  <view class="tips" wx:if="{{!list.length}}">
+    正在载入聊天列表，请稍候...
+  </view>
+  <view class="item-avatar-md" wx:for="{{list}}" wx:key="i.id" wx:for-item="i" wx:for-index="index" data-index="{{index}}" data-name="{{i.name}}" data-id="{{i.id}}" bindtap="goPage">
+          <view class="marks" wx:if="{{i.count}}">
+            <text>{{i.count}}</text>
+          </view>
+          <image src="{{i.avatar}}"></image>
+          <view class="item-text">
+            <view class="text_box">
+              <view class="flex">
+                <text class="title">{{i.name}}</text>
+              </view>
+              <view class="flex">
+                <text class="message">{{i.text}}</text>
+              </view>
+            </view>
+          </view>
+          <view class="item-time padding_half">
+            <text class="messagetime">{{i.updated}}</text>
+          </view> 
+  </view>
+
+</scroll-view>

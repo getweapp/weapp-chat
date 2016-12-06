@@ -1,0 +1,105 @@
+.right-Avatar{
+    float:right;
+    width: 85rpx;
+    height: 85rpx;
+}
+.right-Triangle{
+    float:right;
+    margin-top: 35rpx;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 12px solid yellowgreen;
+    border-bottom: 8px solid transparent;
+}
+.right-message{
+    float: right;
+    margin-top: 10rpx;
+    line-height: 65rpx;
+    background: yellowgreen;
+    border-radius: 10rpx;
+    font-size: 12px;
+}
+
+.left-Avatar{
+    float:left;
+    width: 85rpx;
+    height: 85rpx;
+}
+.left-Triangle{
+    float:left;
+    margin-top: 35rpx;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-right: 12px solid yellowgreen;
+    border-bottom: 8px solid transparent;
+}
+.left-message{
+    float: left;
+    margin-top: 10rpx;
+    line-height: 65rpx;
+    background: yellowgreen;
+    border-radius: 10rpx;
+    font-size: 12px;
+}
+
+.icon{
+    vertical-align: middle;
+    margin-top: 4px;
+    width:32px;
+    height:32px;
+}
+
+.ion-ios-mic{
+    background-image:url('../../images/voice.png');
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: middle;
+}
+
+.ion-happy-outline{
+    background-image:url('../../images/emotion-o.png');
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: middle;
+}
+
+.ion-ios-plus-outline{
+    background-image:url('../../images/plus.png');
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: middle;
+}
+
+.ion-ios-send{
+    background-image:url('../../images/send.png');
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: middle;
+}
+
+.emotion{
+    width:32px;
+    height:32px;
+    line-height: 32px;
+    margin: 5px;
+}
+
+#emotionPanel{
+    padding-left:20px;
+}
+
+.moreImage{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    background: #f3f3f3;
+    margin: 5px;
+}
